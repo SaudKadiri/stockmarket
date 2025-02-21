@@ -1,12 +1,13 @@
-import Navbar from "../components/Navbar"
+import Sidebar from "../components/Sidebar"
 import { Outlet } from "react-router"
 
 const MainLayout = () => {
   return (
-    <>
-        <Navbar />
+    <main className="flex">
+        <Sidebar />
         <Outlet />
-    </>
+    </main>
+    
   )
 }
 

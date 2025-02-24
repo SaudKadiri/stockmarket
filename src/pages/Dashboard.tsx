@@ -4,10 +4,10 @@ import StockChart from '../components/charts/StockChart';
 const Dashboard = () => {
   const [search, setSearch] = useState("");
 
-  return <main className="p-10 w-full backround-black rounded-xl shadow-lg background-blue-500">
+  return <main className="p-10 w-full background-blue-500">
     <header className="flex justify-between w-full">
       <p className="text-xl">My Dashboard</p>
-      <section>
+      <section className='gap-2 flex'>
         <input
             type="text"
             name="search"
@@ -21,7 +21,7 @@ const Dashboard = () => {
           </button>
       </section>
     </header>
-    <StockChart />
+    <StockChart className="h-fit bg-gray-100 min-w-xl w-fit rounded-xl p-4" />
   </main>
 }
 

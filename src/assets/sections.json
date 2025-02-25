@@ -1,0 +1,46 @@
+{
+    "For You": [
+      { "title": "Dashboard", "link": "/" },
+      { "title": "My Portfolios", "link": "/portfolios" },
+      { "title": "Watchlist", "link": "/watchlist" },
+      { "title": "Alerts & Notifications", "link": "/alerts" }
+    ],
+    "Markets": [
+      { "title": "Market Overview", "link": "/market-overview" },
+      { "title": "Stock Screener", "link": "/stock-screener" },
+      { "title": "Cryptocurrency", "link": "/cryptocurrency" },
+      { "title": "Forex & Commodities", "link": "/forex" },
+      { "title": "ETFs & Mutual Funds", "link": "/etfs-mutual-funds" },
+      { "title": "Bonds & Fixed Income", "link": "/bonds" }
+    ],
+    "News & Research": [
+      { "title": "Latest News", "link": "/news" },
+      { "title": "Market Insights", "link": "/market-insights" },
+      { "title": "Earnings Calendar", "link": "/earnings-calendar" },
+      { "title": "IPO & Listings", "link": "/ipo-listings" },
+      { "title": "Economic Calendar", "link": "/economic-calendar" },
+      { "title": "Analyst Ratings", "link": "/analyst-ratings" }
+    ],
+    "Community & Learning": [
+      { "title": "Learn & Earn", "link": "/learn-earn" },
+      { "title": "Trading Academy", "link": "/trading-academy" },
+      { "title": "Forums & Discussions", "link": "/forums" },
+      { "title": "Public Portfolios", "link": "/public-portfolios" },
+      { "title": "Influencers & Experts", "link": "/top-investors" }
+    ],
+    "Tools & Resources": [
+      { "title": "Calculators", "link": "/calculators" },
+      { "title": "Trading Signals", "link": "/trading-signals" },
+      { "title": "Backtesting", "link": "/backtesting" },
+      { "title": "AI Stock Predictions", "link": "/ai-stock-predictions" },
+      { "title": "Company Reports", "link": "/company-reports" }
+    ],
+    "Account & More": [
+      { "title": "Profile & Settings", "link": "/profile-settings" },
+      { "title": "Subscriptions & Plans", "link": "/subscriptions" },
+      { "title": "Help & Support", "link": "/help" },
+      { "title": "Privacy & Security", "link": "/privacy-security" },
+      { "title": "About Us", "link": "/about" }
+    ]
+}
+  

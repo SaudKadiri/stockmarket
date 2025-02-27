@@ -17,7 +17,7 @@ const Sidebar = () => {
         {Object.entries(sections as Sections).map(([key, submenus]: [string, any], index) => <section key={index}> 
           <p className="text-xl font-bold mt-4">{key}</p>
           <ul className="">
-            {submenus.map((submenu: any, index: number) => <li key={index} className="flex items-center gap-2">
+            {submenus.map((submenu: Submenu, index: number) => <li key={index} className="flex items-center gap-2">
               {/* <span className="material-icons">{submenu.icon}</span> */}
               <span>{submenu.title}</span>
             </li>)}

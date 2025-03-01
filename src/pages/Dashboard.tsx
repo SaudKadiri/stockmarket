@@ -6,7 +6,7 @@ const Dashboard = () => {
 
   return <main className="p-10 w-full background-blue-500">
     <header className="flex justify-between w-full">
-      <p className="text-xl">My Dashboard</p>
+      <p className="text-2xl font-bold">My Dashboard</p>
       <section className='gap-2 flex'>
         <input
             type="text"

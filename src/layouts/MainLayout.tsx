@@ -3,9 +3,9 @@ import { Outlet } from "react-router"
 
 const MainLayout = () => {
   return (
-    <main className="flex">
+    <main className="flex bg-blue-500">
         <Sidebar />
-        <Outlet />
+          <Outlet />
     </main>
     
   )

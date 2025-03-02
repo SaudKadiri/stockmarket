@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import StockChart from '../components/charts/StockChart';
+import StockList from '../components/StockList';
 
 const Dashboard = () => {
   const [search, setSearch] = useState("");
@@ -21,7 +21,7 @@ const Dashboard = () => {
           </button>
       </section>
     </header>
-    <StockChart className="h-fit bg-gray-100 min-w-xl w-fit rounded-xl p-4" />
+    <StockList />
   </main>
 }
 
